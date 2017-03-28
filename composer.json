@@ -1,0 +1,26 @@
+{
+    "name": "cengizhancaliskan/views-counter-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony document/entity views counter",
+    "keywords": ["view count","view counter", "views counter", "entity views", "entity view counter"],
+    "homepage": "https://github.com/cengizhancaliskan/ViewsCounterBundle",
+    "require": {
+        "php": ">=5.4",
+        "symfony/symfony": "^2.7 || ^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8|~5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cengizhan Çalışkan",
+            "email": "cengizhancaliskan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cengizhan\\ViewsCounterBundle\\": ""
+        }
+    }
+}

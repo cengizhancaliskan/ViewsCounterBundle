@@ -1,0 +1,8 @@
+services:
+    views_counter.visitable_manager:
+        class: Cengizhan\ViewsCounterBundle\Manager\VisitableManager
+        arguments: ["@doctrine.orm.entity_manager"]
+
+    views_counter.views_counter:
+        class: Cengizhan\ViewsCounterBundle\Manager\ViewsCounter
+        arguments: ["@session", "@views_counter.visitable_manager"]
